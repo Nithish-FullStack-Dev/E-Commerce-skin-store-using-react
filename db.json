@@ -1,0 +1,148 @@
+{
+  "user": [
+    {
+      "id": "6b5b",
+      "userName": "Nithish",
+      "email": "a@gmail.com",
+      "password": "1234",
+      "gender": "male",
+      "address": {
+        "plot": "2-138",
+        "city": "hyd",
+        "state": "telangana"
+      },
+      "role": "admin",
+      "userItems": []
+    },
+    {
+      "id": "4d9f",
+      "userName": "bhanu",
+      "email": "b@gmail.com",
+      "password": "5678",
+      "gender": "female",
+      "address": {
+        "plot": "2-138/10",
+        "city": "banguluru",
+        "state": "karnataka"
+      },
+      "role": "user",
+      "userItems": [
+        "71d0",
+        "fa23",
+        "77be",
+        "0c72",
+        "f608",
+        "fad4"
+      ]
+    },
+    {
+      "id": "582f",
+      "userName": "avi",
+      "email": "c@gmail.com",
+      "password": "4321",
+      "gender": "male",
+      "address": {
+        "plot": "2-138/11",
+        "city": "mumbai",
+        "state": "maharastra"
+      },
+      "role": "admin"
+    }
+  ],
+  "products": [
+    {
+      "id": "0fcc",
+      "type": "Sunscreens",
+      "pName": "Soothing Sunscreen Gel",
+      "pPrice": "$24.50",
+      "pDPrice": "10%",
+      "pImage": "./assets/asset 2.jpeg",
+      "rating": "4"
+    },
+    {
+      "id": "1358",
+      "type": "Cleanser",
+      "pName": "Hybrid Cleansing Balm",
+      "pPrice": "$32.90",
+      "pDPrice": "0%",
+      "pImage": "./assets/asset 1.jpeg",
+      "rating": "3.5"
+    },
+    {
+      "id": "71d0",
+      "type": "Body lotion",
+      "pName": "Energizing Marine Lotion",
+      "pPrice": "$20.50",
+      "pDPrice": "10%",
+      "pImage": "./assets/asset 3.jpeg",
+      "rating": "3.6"
+    },
+    {
+      "id": "fa23",
+      "type": "Bundles  ",
+      "pName": "Calm Hydrating Moisturizer  ",
+      "pPrice": "$29.90",
+      "pDPrice": "10%",
+      "pImage": "./assets/asset 4.jpeg",
+      "rating": "4.1"
+    },
+    {
+      "id": "77be",
+      "type": "Cleanser  ",
+      "pName": "Makeup Melting Cleanser ",
+      "pPrice": " $29.90",
+      "pDPrice": "10%",
+      "pImage": "./assets/asset 5.jpeg",
+      "rating": "3.9"
+    },
+    {
+      "id": "0c72",
+      "type": "Cleanser",
+      "pName": "  Balancing Daily Cleanser ",
+      "pPrice": " $34.90",
+      "pDPrice": "10%",
+      "pImage": "./assets/asset 6.jpeg",
+      "rating": "4.2"
+    },
+    {
+      "id": "fad4",
+      "type": "Moisturizer ",
+      "pName": " Hydrating Gel Oil ",
+      "pPrice": " $20.00",
+      "pDPrice": "10%",
+      "pImage": "./assets/asset 7.jpeg",
+      "rating": "3.5"
+    },
+    {
+      "id": "f608",
+      "type": "Cleanser  ",
+      "pName": "Cleanser Concentrate  ",
+      "pPrice": "$30.00",
+      "pDPrice": "10%",
+      "pImage": "./assets/asset 8.jpeg",
+      "rating": "3.9"
+    }
+  ],
+  "itemsInCart": [
+    {
+      "id": "e418",
+      "productId": "71d0",
+      "count": 1
+    },
+    {
+      "id": "c091",
+      "productId": "71d0",
+      "count": 1
+    },
+    {
+      "id": "447e",
+      "productId": "71d0",
+      "count": 2
+    },
+    {
+      "id": "3616",
+      "productId": "71d0",
+      "count": 3
+    }
+  ]
+}
