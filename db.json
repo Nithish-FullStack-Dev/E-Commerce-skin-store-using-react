@@ -12,7 +12,10 @@
         "state": "telangana"
       },
       "role": "admin",
-      "userItems": []
+      "userItems": [
+        "fa23",
+        "0c72"
+      ]
     },
     {
       "id": "4d9f",
@@ -143,6 +146,11 @@
       "id": "3616",
       "productId": "71d0",
       "count": 3
+    },
+    {
+      "id": "59be",
+      "productId": "fa23",
+      "count": 1
     }
   ]
 }

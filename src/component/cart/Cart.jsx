@@ -55,23 +55,7 @@ const Cart = () => {
     .toFixed(2);
 
   let handleCartCount = async (productId) => {
-    // let payload = { productId, count };
-    try {
-      let data = await Service.getItemsInCart(productId);
-      if (data) {
-        console.log("no data");
-      } else {
-        let newCount = cartNum.count ? cartNum.count + 1 : 1;
-        setCartNum({ productId, count: newCount });
-        let addingData = await Service.addItemsInCart({
-          productId,
-          count: newCount,
-        });
-        console.log(addingData);
-      }
-    } catch (error) {
-      console.log(data);
-    }
+    console.log(productId)
   };
 
   return (
